@@ -13,5 +13,6 @@ compiler:
   - clang
 script: 
   - ./bootstrap
+  - ./configure
   - make
   - make install
