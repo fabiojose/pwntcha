@@ -1,3 +1,4 @@
 language: c
+install: sudo port install libsdl_image
 compiler: gcc
 script: make
