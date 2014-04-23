@@ -1,0 +1,31 @@
+$Id: NOTES 443 2005-01-10 00:37:53Z sam $
+
+   The extras/ directory contains extra files that were used to generate
+static files such as fonts.
+
+usercp_confirm.php
+------------------
+   This file is includes/usercp_confirm.php, extracted from phpBB's captcha
+generator. It was used to generate the font_phpbb.png font file. This file
+is NOT under the WTFPL, it is GPL.
+
+  Usage: php4 usercp_confirm.php > font_phpbb.png
+
+getphpbbcaptcha.py
+------------------
+   Download a phpBB captcha from www.phpbb.com and output it to stdout.
+
+  Usage: getphpbbcaptcha.py > captcha.png
+
+font_linuxfr.php
+----------------
+   This file is used to create the linuxfr font.
+
+  Usage: php4 font_linuxfr.php > font_linuxfr.png
+
+makefont.c
+----------
+   This program is used to do a bitmap drawing of a ttf font.
+
+  Usage: makefont <font.ttf> <size> <text> <output.bmp>
+
