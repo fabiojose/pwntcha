@@ -15,3 +15,4 @@ script:
   - make
   - pwd
   - ls
+  - ls src
