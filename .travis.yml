@@ -14,5 +14,4 @@ compiler:
 script: 
   - ./bootstrap
   - ./configure
-  - make
-  - make install
+  - sudo make install
