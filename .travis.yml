@@ -1,4 +1,4 @@
 language: c
-install: sudo install libsdl_image
+install: sudo apt-get install libsdl-image-gst
 compiler: gcc
 script: make
