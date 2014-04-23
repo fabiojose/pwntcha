@@ -13,4 +13,4 @@ script:
   - ./bootstrap
   - ./configure	
   - make
-  - make intall
+  - make install
