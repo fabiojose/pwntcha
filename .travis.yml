@@ -13,3 +13,5 @@ script:
   - ./bootstrap
   - ./configure	
   - make
+  - pwd
+  - ls
