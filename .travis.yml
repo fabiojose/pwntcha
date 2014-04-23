@@ -23,5 +23,5 @@ script:
   - ./pwntcha ../testsuite/authimage/authimage_001.jpeg
   - ./pwntcha ../testsuite/paypal/paypal_000.jpeg
   - ./pwntcha ../testsuite/paypal/paypal_001.jpeg
-  - ./pwntcha ../testsuite/xanga2/xanga_000.jpeg
-  - ./pwntcha ../testsuite/xanga2/xanga_001.jpeg
+  - ./pwntcha ../testsuite/xanga2/xanga2_000.jpeg
+  - ./pwntcha ../testsuite/xanga2/xanga2_001.jpeg
