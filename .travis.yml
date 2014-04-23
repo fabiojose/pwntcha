@@ -1,4 +1,7 @@
 language: c
 install: sudo apt-get install libsdl-image-gst
 compiler: gcc
-script: make
+script: 
+  - ./bootstrap
+  - ./configure
+  - sudo make install
