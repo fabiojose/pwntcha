@@ -6,7 +6,8 @@ install:
   - sudo apt-get install libsdl-ttf2.0-dev
   - sudo apt-get install libsdl-gfx1.2-dev
   - sudo apt-get install libimlib2
-  - sudo apt-get install libimlib2-dev 
+  - sudo apt-get install libimlib2-dev
+  - chmod +x bootstrap
 compiler:
   - gcc
   - clang
